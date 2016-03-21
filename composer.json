@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Kendu\\Mpdf": "src/"
+            "Jbsh1999\\Mpdf": "src/"
         }
     },
     "license": "Apache 2.0"
