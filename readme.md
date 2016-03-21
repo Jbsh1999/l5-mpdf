@@ -6,7 +6,7 @@ Begin by installing this package through Composer. Edit your project's `composer
 ```json
 {
   "require": {
-       "kendu/l5-mpdf" : "dev-master"
+       "Jbsh1999/l5-mpdf" : "dev-master"
     }
 }
 ```
@@ -18,14 +18,14 @@ $ composer update
 
 Once this operation completes, the final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
 ```php
-'Kendu\Mpdf\ServiceProvider',
+'Jbsh1999\Mpdf\ServiceProvider',
 ```
 
 You can also register facade.
 
 
 ```php
-'PDF' => 'Kendu\Mpdf\Facades\Pdf',
+'PDF' => 'Jbsh1999\Mpdf\Facades\Pdf',
 ```
 
 
